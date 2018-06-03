@@ -1,0 +1,19 @@
+{
+  "name": "drip-investing",
+  "version": "0.0.1",
+  "description": "A tool to manage investing in little drips. Round your purchases to the nearest dollar",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dan Laush",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^2.4.0",
+    "date-fns": "^1.29.0",
+    "md5": "^2.2.1",
+    "moment": "^2.22.2",
+    "stream-transform": "^1.0.2"
+  }
+}

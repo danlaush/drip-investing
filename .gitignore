@@ -1,0 +1,8 @@
+
+node_modules
+
+# Will be putting bank details in this folder
+# Only keep the sample csv in version control
+data/*
+!data/transactions.dist.csv
+!data/data.dist.json
