@@ -1,17 +1,31 @@
 {
   "name": "drip-investing",
-  "version": "0.0.1",
-  "description": "A tool to manage investing in little drips. Round your purchases to the nearest dollar",
-  "main": "index.js",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "Dan Laush <dan.laush@gmail.com>",
+  "private": true,
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
   },
-  "author": "Dan Laush",
-  "license": "ISC",
   "dependencies": {
+    "fs": "^0.0.1-security",
+    "node-sass": "^4.9.0",
+    "nuxt": "^1.0.0",
+    "sass-loader": "^7.0.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
     "csv-parse": "^2.4.0",
     "date-fns": "^1.29.0",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0",
     "md5": "^2.2.1",
     "moment": "^2.22.2",
     "stream-transform": "^1.0.2"
