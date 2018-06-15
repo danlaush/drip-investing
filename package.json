@@ -13,9 +13,11 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.3.1",
+    "currency.js": "^1.1.4",
     "fs": "^0.0.1-security",
     "node-sass": "^4.9.0",
-    "nuxt": "^1.0.0",
+    "nuxt": "^1.4.1",
     "sass-loader": "^7.0.2"
   },
   "devDependencies": {

@@ -23,8 +23,9 @@ html {
 
 .container {
   min-height: 100vh;
-  max-width: 1000px;
+  max-width: 600px;
   margin: 2rem auto 0;
+  padding: 0 1rem;
 }
 
 

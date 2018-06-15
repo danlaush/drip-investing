@@ -1,6 +1,21 @@
 # Drip Investing
 
-> Nuxt.js project
+This project aims to help you invest a bit at a time without having to give your entire spending history to advertisers.
+
+As frequently as you'd like, export your transactions from CommBank as a CSV. Import them into Drip Investing. You'll be given the amount you should invest for the month - each transaction is rounded up to the nearest dollar, and that difference in change goes into the total. Take that amount and transfer it to your superannuation or investment of choice.
+
+## To do
+
+- [x] Data model
+- [x] Static layout
+- [x] Calculate monthly totals from data
+- [x] Layout populated from store
+- [x] Insert new data in store
+- [ ] Persist data?
+    - [ ] Insert new data in json file
+    - [ ] Ignore alread-captured data during import
+- [ ] Process CSV
+- [ ] 
 
 ## Build Setup
 
